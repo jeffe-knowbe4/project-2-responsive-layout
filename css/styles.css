@@ -1,0 +1,203 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #f6f6f6;
+  color: #333;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #999;
+}
+
+h2 {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin: 3em 0;
+}
+
+img {
+  width: 100%;
+}
+
+header,
+footer,
+#contact {
+  padding: 2em 1em;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+header nav ul,
+#contact ul {
+  list-style: none;
+  text-transform: uppercase;
+  margin: 2em 0 3em;
+  padding: 0;
+}
+
+header nav ul li a {
+  display: block;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.75em;
+  margin-bottom: 0.25em;
+}
+
+header img {
+  width: 75%;
+}
+
+header p,
+#contact p {
+  letter-spacing: 1px;
+}
+
+main,
+footer,
+#contact {
+  padding: 1em;
+}
+
+main {
+  background-color: #fff;
+  padding-bottom: 3em;
+}
+
+#contact li {
+  color: #999;
+  text-transform: none;
+  margin-bottom: 1em;
+}
+
+#contact li a {
+  color: #777;
+  font-weight: bold;
+  margin-left: 0.75em;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+main p {
+  color: #777;
+  letter-spacing: 1px;
+}
+
+footer hr {
+  border-top: 1px solid #ccc;
+}
+
+footer section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h4 {
+  font-size: 1em;
+}
+
+footer a {
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  display: none;
+}
+
+footer ul li:first-child {
+  display: inline-block;
+}
+
+.clear {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  header nav ul li {
+    display: inline-block;
+  }
+  header nav ul li a {
+    display: inline-block;
+    background-color: transparent;
+  }
+  header img {
+    float: right;
+    margin-left: 1em;
+    width: 40%;
+  }
+  header p {
+    font-size: 1.25rem;
+    text-align: left;
+  }
+  header,
+  footer,
+  #contact {
+    background-color: #f6f6f6;
+    padding: 2em;
+  }
+  .articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+  }
+  article {
+    width: 45%;
+    margin-bottom: 3em;
+  }
+  #contact {
+    font-size: 1.25em;
+  }
+  #contact p {
+    margin: 1em auto;
+    width: 80%;
+  }
+  footer ul li {
+    display: inline-block;
+    margin-left: 1.5em;
+  }
+  footer ul li:first-child {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    padding: 2em 4em 4em;
+  }
+  .name-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main {
+    margin: 0 1.5em;
+  }
+  article {
+    width: 30%;
+  }
+}
