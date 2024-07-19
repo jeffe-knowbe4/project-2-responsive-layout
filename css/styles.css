@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 html {
   font-size: 100%;
 }
@@ -5,10 +7,18 @@ html {
 body {
   background-color: #f6f6f6;
   color: #333;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   margin: 0;
   padding: 0;
+}
+
+a {
+  transition: all 300ms ease-in-out;
+}
+
+a:hover {
+  text-shadow: 2px 2px 0.5em rgba(0, 0, 0, 0.25);
 }
 
 p {
@@ -32,6 +42,7 @@ footer,
 }
 
 header h1 {
+  color: #339;
   margin-top: 0;
 }
 
@@ -73,6 +84,20 @@ main {
   padding-bottom: 3em;
 }
 
+#skills {
+  margin-top: 3em;
+}
+
+#skills ul {
+  list-style-type: none;
+  margin: 0 0 2em;
+  padding: 0;
+}
+
+#skills ul li {
+  margin-bottom: 0.5em;
+}
+
 #contact li {
   color: #999;
   text-transform: none;
@@ -96,7 +121,7 @@ main p {
   letter-spacing: 1px;
 }
 
-footer hr {
+hr {
   border-top: 1px solid #ccc;
 }
 
@@ -108,6 +133,7 @@ footer section {
 }
 
 footer h4 {
+  color: #339;
   font-size: 1em;
 }
 
